@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
